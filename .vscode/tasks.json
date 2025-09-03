@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Arduino Sketch",
+      "type": "shell",
+      "command": "arduino-cli compile --fqbn arduino:mbed_nano:nano33ble .",
+      "group": "build"
+    },
+    {
+      "label": "Upload Arduino Sketch",
+      "type": "shell",
+      "command": "arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:mbed_nano:nano33ble .",
+      "group": "build"
+    }
+  ]
+}
