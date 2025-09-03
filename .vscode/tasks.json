@@ -10,7 +10,7 @@
     {
       "label": "Upload Arduino Sketch",
       "type": "shell",
-      "command": "arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:mbed_nano:nano33ble .",
+      "command": "arduino-cli upload -p COM4 --fqbn arduino:mbed_nano:nano33ble .",
       "group": "build"
     }
   ]

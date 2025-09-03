@@ -65,11 +65,7 @@ Create the file .vscode/tasks.json in your repository, and add following content
       "label": "Build Arduino Sketch",
       "type": "powershell",
       "command": "arduino-cli compile --fqbn arduino:mbed_nano:nano33ble .",
-      "group": "compile"
-    //   {
-    //     "kind": "build",
-    //     "isDefault": true
-    //   }
+      "group": "build"
     },
     {
       "label": "Upload Arduino Sketch",
