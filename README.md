@@ -42,7 +42,8 @@ arduino-cli board list
 To compile the code, run the following command:
 
 ```powershell
-arduino-cli compile --fqbn arduino:mbed_nano:nano33ble mittBLEprojekt
+arduino-cli compile --fqbn arduino:mbed_nano:nano33ble myProjectFolder  # if outside of the folder
+arduino-cli compile --fqbn arduino:mbed_nano:nano33ble .  # if inside of the folder
 ```
 
 ## Upload the Code to the Arduino
@@ -50,7 +51,7 @@ arduino-cli compile --fqbn arduino:mbed_nano:nano33ble mittBLEprojekt
 To upload the code to the unit, run the following command:
 
 ```powershell
-arduino-cli upload -p <PORT> --fqbn <FQBN> pathToYourBleProjectFile.ino
+arduino-cli upload -p <PORT> --fqbn <FQBN> pathToYourProjectFile.ino
 ```
 
 ## Automatic Build and Upload in VSCode
