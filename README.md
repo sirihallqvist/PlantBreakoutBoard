@@ -1,5 +1,7 @@
 # PlantBreakoutBoard
 
+![PlantBreakoutBoard](./PlantBreakoutBoard.png)
+
 ## Prerequisites:
 - VSCode
 - Arduino Nano 33 BLE connected via usb-usbc to the computer
